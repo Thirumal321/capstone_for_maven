@@ -1,5 +1,5 @@
 Feature: Search Functionality
-@SearchResultsTest
+
   Scenario: Search for a product and apply filters
     Given User is on home page
     When User searches for "Java"

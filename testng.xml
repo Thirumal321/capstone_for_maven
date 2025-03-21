@@ -3,6 +3,7 @@
 <suite name="MySuite">
   <test thread-count="5" name="Test">
     <classes>
+		<class name="stepDefinitions.HomePageTest"></class>
       <class name="stepDefinitions.SearchResultTest"/>
       <class name="stepDefinitions.ShoppingCartTest"/>
       <class name="stepDefinitions.productdetails_test"/>

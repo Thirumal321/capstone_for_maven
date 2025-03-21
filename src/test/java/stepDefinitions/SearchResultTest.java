@@ -50,7 +50,7 @@ public class SearchResultTest {
         Assert.assertTrue(searchresults.issearchresultsdisplayed(), "Search results are not displayed.");
     }
 
-    @After("@SearchResultsTest")
+    @After
     public void teardown() {
         WebDriverSetup.quitDriver();
     }

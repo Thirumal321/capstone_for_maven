@@ -1,18 +1,17 @@
-// stepDefinitions/HomePageTest.java
+
 package stepDefinitions;
-import org.testng.*;
 import pages.HomePage;
+import utils.ScreenshotUtil;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 
-import utils.ScreenshotUtil; 
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HomePageTest {
 
@@ -40,7 +39,7 @@ public class HomePageTest {
         driver.close();
     }
 
-   /* @AfterMethod
+   @AfterMethod
     public void tearDown(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
             ScreenshotUtil.captureScreenshot(driver, result.getName());
@@ -48,5 +47,5 @@ public class HomePageTest {
         if (driver != null) {
             driver.quit();
         }
-    }*/
+    }
 }
