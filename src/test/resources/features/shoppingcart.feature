@@ -2,7 +2,7 @@ Feature: Shopping Cart Basics
 
   Scenario: Shopping cart action
   Given user is on the bookswagon page
-  When user enters valid credentials "7286806073" and "Test@123" login
+  When user enters valid credentials "8555825415" and "Test@123" login
   When user searches the product "java" 
   When user Adds three products to cart
   Then user should verify three products in the cart
